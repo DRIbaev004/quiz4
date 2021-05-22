@@ -2,6 +2,6 @@ package itis.parsing;
 
 interface ParkParsingService {
 
-    Park parseParkData(String parkDatafilePath) throws ParkParsingException;
+    Park parseParkData(String parkDatafilePath) throws ParkParsingException, Exception;
 
 }
